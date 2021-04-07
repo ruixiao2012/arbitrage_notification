@@ -5,6 +5,9 @@ language: python
 env:
   global:
     - PYTHONIOENCODING: utf8
+    
+notifications:
+  webhooks: https://oapi.dingtalk.com/robot/send?access_token=353e06af2430fd812660382c88f7ef8e06a861b5186dd7651e07cca832255cb6
 
 python:
   - '3.6'
